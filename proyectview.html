@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Import Google Icon Font-->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="./css/project.css">
+  <title>Vista de proyecto</title>
+</head>
+<body class="grey lighten-5">
+  <nav class="nav-wrapper white">
+    <a href="#" class="brand-logo indigo-text darken-4">
+      <img src="./img/Puzzlebase.png" class="responsive-img" id="puzzlebase-logo" />
+    </a>
+    <ul class="right hide-on-med-and-down valign-wrapper">
+      <li>
+        <a class="waves-effect waves-dark btn-flat white">
+        <i class="material-icons left">add</i>Crear proyecto</a>
+      </li>
+      <li>
+        <a class="waves-effect waves-dark btn-flat white">
+        <i class="material-icons left">info_outline</i>Acerca de</a>
+      </li>
+      <li>
+        <a class="waves-effect waves-light btn-flat circle white">
+        <i class="material-icons left">account_circle</i></a>
+      </li>
+    </ul>
+    <a href="#" data-target="responsive-menu" class="sidenav-trigger">
+      <i class="material-icons indigo-text darken-4">menu</i></a>
+  </nav>
+  <ul id="responsive-menu" class="sidenav">
+    <li>
+      <a class="waves-effect waves-light btn-flat white">
+      <i class="material-icons left">add</i>Crear proyecto</a>
+    </li>
+    <li>
+      <a class="waves-effect waves-light btn-flat white">
+        <i class="material-icons left">info_outline</i>Acerca de</a>
+    </li>
+  </ul>
+  <br>
+  <div class="container">
+    <div class="row white z-depth-1" id="info-panel">
+      <div class="row valign-wrapper"  style="padding-top: 20px;" id="proyect-header">
+        <img src="./img/Logo del proyecto.png" alt="" class="responsive-img center-align" id="img-logo">
+        <h5 class="header center-align indigo-text darken-4" id="proyect-title">SpaceMX</h5>
+        <a class="waves-effect waves-light btn-small indigo darken-4" id="like-button">
+          <i class="material-icons left">chevron_right</i>Me gusta</a>
+      </div>
+      <div class="row valign-wrapper" id="proyect-body">
+        <img src="./img/Imagen principal del proyecto.png" alt="" class="responsive-img center-align"
+          id="img-proyect">
+          Space Exploration Technologies Corp., conocida como SpaceX, es una empresa estadounidense
+          de fabricación aeroespacial y de servicios de transporte espacial con residencia en
+          Hawthorne (California).
+          Fue fundada en 2002 por Elon Musk con el objetivo de reducir los costes de viajar al espacio
+          para facilitar la colonización de Marte.
+      </div>
+      <div class="row valign-wrapper" id="creator-panel">
+        <h5 class="indigo-text darken-4">Creador</h5>
+        <a><i class="material-icons medium grey-text darken-5">account_circle</i></a>
+        <p>Elon Hernández</p>
+      </div>
+    </div>
+    <h5 class="header indigo-text darken-4">Comentarios</h5>
+    <div class="row white z-depth-1" id="info-panel">
+      <div class="container" id="comment-bar">
+        <input id="comment" type="text" class="validate" placeholder="Ingrese un comentario">
+        <a class="waves-effect waves-light btn-small blue darken-1 truncate" id="like-button">Comentar</a>
+      </div>
+      <div class="divider"></div>
+        <div class="col s2">
+          <a><i class="material-icons medium grey-text darken-5">account_circle</i></a>
+        </div>
+        <div class="col s10">
+          <h5>Andrea Pérez</h5>
+          <p>Space Exploration Technologies Corp., conocida como SpaceX, es una empresa estadounidense
+            de fabricación aeroespacial y de servicios de transporte espacial con residencia en
+            Hawthorne (California).
+            Fue fundada en 2002 por Elon Musk con el objetivo de reducir los costes de viajar al
+            espacio para facilitar la colonización de Marte. 
+          </p>
+        </div>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js">
+  </script>
+  <script>
+    M.AutoInit();
+  </script>
+</body>
+</html>
